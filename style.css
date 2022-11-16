@@ -1,0 +1,31 @@
+
+.links line {
+    stroke: #999;
+    stroke-opacity: 0.6;
+    stroke-width: 0.5rem;
+  }
+  
+  .nodes circle {
+    stroke: #fff;
+    stroke-width: 2px;
+  }
+  
+  text {
+    font-family: sans-serif;
+    font-size: 10px;
+    color: #dad6d6;
+  }
+  td {
+    border: 2px solid green;
+  }
+  
+  th {
+    border: 1px solid black;
+  }
+  
+  tr {
+    border: 2px solid blue;
+    display: block;
+    padding: 3px;
+    margin: 2px;
+  }

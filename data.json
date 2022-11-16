@@ -1,0 +1,54 @@
+{"nodes":
+    [
+        {"id":"Archduke Franz Ferdinand", "affiliation": "Austria Hungarian Royalty"},
+        {"id":"Gavrilo Princip", "affiliation": "Young Bosnia"},
+        {"id":"Bogdan Zerajic", "affiliation": "Secret Society of Freedom"},
+        {"id":"Vladimir Gacinovic", "affiliation": "Young Bosnia"},
+        {"id":"Victor Serge", "affiliation": "Bolshevicks"}, 
+        {"id":"Leon Trotsky", "affiliation": "Bolshevicks"},
+        {"id":"Georgi Plekhanov", "affiliation": "Bolshevicks"},
+        {"id":"Vladimir Lenin", "affiliation": "Bolshevicks"},
+        {"id":"Muhamed Mehmedbasic", "affiliation": "Young Bosnia"},
+        {"id":"Mustafa Golubic", "affiliation": "Black Hand"},
+        {"id":"Dragutin Dimitrijevic", "affiliation": "Black Hand"},
+        {"id":"Jovan Ducic", "affiliation": "Narodana Odbrana"},
+        {"id":"Stepa Stepanovic", "affiliation": "Narodana Odbrana"},
+        {"id":"Branislav Nusic", "affiliation": "Narodana Odbrana"},
+        {"id":"Mihajlo Jovanovic", "affiliation":"Narodana Odbrana"}
+    ],
+"links":
+    [
+        {"source":"Archduke Franz Ferdinand","target":"Gavrilo Princip"},
+        {"source":"Gavrilo Princip","target":"Bogdan Zerajic"}, 
+        {"source":"Gavrilo Princip","target":"Vladimir Gacinovic"}, 
+        {"source":"Gavrilo Princip","target":"Muhamed Mehmedbasic"}, 
+        {"source":"Gavrilo Princip","target":"Dragutin Dimitrijevic"}, 
+        {"source":"Gavrilo Princip","target":"Mihajlo Jovanovic"},
+        {"source":"Bogdan Zerajic","target":"Vladimir Gacinovic"},
+        {"source":"Vladimir Gacinovic","target":"Muhamed Mehmedbasic"},
+        {"source":"Vladimir Gacinovic","target":"Victor Serge"},
+        {"source":"Vladimir Gacinovic","target":"Leon Trotsky"},
+        {"source":"Victor Serge","target":"Leon Trotsky"},
+        {"source":"Victor Serge","target":"Georgi Plekhanov"},
+        {"source":"Victor Serge","target":"Vladimir Lenin"},
+        {"source":"Leon Trotsky","target":"Vladimir Lenin"},
+        {"source":"Leon Trotsky","target":"Georgi Plekhanov"},
+        {"source":"Muhamed Mehmedbasic","target":"Mustafa Golubic"},
+        {"source":"Mustafa Golubic","target":"Dragutin Dimitrijevic"},
+        {"source":"Dragutin Dimitrijevic","target":"Jovan Ducic"},
+        {"source":"Dragutin Dimitrijevic","target":"Stepa Stepanovic"},
+        {"source":"Jovan Ducic","target":"Stepa Stepanovic"},
+        {"source":"Jovan Ducic","target":"Branislav Nusic"},
+        {"source":"Jovan Ducic","target":"Mihajlo Jovanovic"},
+        {"source":"Stepa Stepanovic","target":"Mihajlo Jovanovic"},
+        {"source":"Stepa Stepanovic","target":"Branislav Nusic"},
+        {"source":"Branislav Nusic","target":"Mihajlo Jovanovic"}
+    ],
+    "count": [
+        {"num": 3},
+        {"num": 1},
+        {"num": 4},
+        {"num": 6},
+        {"monarch": 1}
+    ]
+}
